@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rentcars</title>
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<main>
+		<section class="hero">
+			<div class="hero__container container">
+				<header class="header">
+					<a href="#" class="header__logo logo">
+						<svg class="logo__icon">
+							<use href="./icons/sprite.svg#logo"></use>
+						</svg>
+						Rentcars
+					</a>
+					<nav class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" class="menu__link">Become a renter</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Rental deals</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">How it work</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Why choose us</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__actions actions">
+						<button class="actions__btn">Sign in</button>
+						<button class="actions__btn actions__btn_focus">Sign up</button>
+						<button class="burger-btn" aria-label="Открыть меню" aria-expanded="false"></button>
+					</div>
+				</header>
+				<div class="hero__content">
+					<h1 class="hero__title">Find, book and rent a car
+						<span class="hero__accent">Easily
+							<svg class="accen-title">
+								<use href="./icons/sprite.svg#accentTitle"></use>
+							</svg>
+						</span>
+					</h1>
+					<p class="hero__text">Get a car wherever and whenever you need it with your IOS and Android device.</p>
+					<div class="hero__links">
+						<a href="#" class="hero__link">
+							<img src="./icons/google-link.svg" alt="Google Play">
+						</a>
+						<a href="#" class="hero__link">
+							<img src="./icons/apple-link.svg" alt="App Store">
+						</a>
+					</div>
+				</div>
+				<div class="hero__images">
+					<svg class="hero__icon">
+						<use href="./icons/sprite.svg#logo"></use>
+					</svg>
+					<img src="./img/hero-car.png" alt="Автомобиль" class="hero__img">
+				</div>
+				<form action="#" class="hero__form search-form" method="get" role="search">
+					<div class="search-form__field">
+						<label for="location-input" class="search-form__label">
+							<svg class="search-form__icon">
+								<use href="./icons/sprite.svg#location"></use>
+							</svg>
+							<div class="search-form__content">
+								<span class="search-form__title">Location</span>
+								<input type="text" id="location-input" class="search-form__input" placeholder="Search your location"
+									required>
+							</div>
+						</label>
+					</div>
+					<div class="search-form__field">
+						<label for="pickup-input" class="search-form__label">
+							<svg class="search-form__icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<use href="icons/sprite.svg#calendar"></use>
+							</svg>
+							<div class="search-form__content">
+								<span class="search-form__title">Pickup date</span>
+								<input type="text" id="pickup-input" class="search-form__input" placeholder="Tue 15 Feb, 09:00"
+									required>
+							</div>
+						</label>
+					</div>
+					<div class="search-form__field">
+						<label for="return-input" class="search-form__label">
+							<svg class="search-form__icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<use href="icons/sprite.svg#calendar"></use>
+							</svg>
+							<div class="search-form__content">
+								<span class="search-form__title">Return date</span>
+								<input type="text" id="return-input" class="search-form__input" placeholder="Thu 16 Feb, 11:00"
+									required>
+							</div>
+						</label>
+					</div>
+					<button class="search-form__btn btn-accent" type="submit">Search</button>
+				</form>
+			</div>
+		</section>
+		<section class="steps">
+			<div class="steps__container container">
+				<!-- <div class="steps__header"> -->
+				<span class="steps__badge badge">How iy work</span>
+				<h2 class="steps__title title">Rent with following 3 working steps</h2>
+				<!-- </div> -->
+				<ol class="steps__list step-card">
+					<li class="step-card__item">
+						<div class="step-card__image">
+							<svg class="step-card__icon">
+								<use href="./icons/sprite.svg#cardLocation"></use>
+							</svg>
+						</div>
+						<h3 class="step-card__title">Choose location</h3>
+						<p class="step-card__text">Choose your and find
+							your best car</p>
+					</li>
+					<li class="step-card__item">
+						<div class="step-card__image">
+							<svg class="step-card__icon">
+								<use href="./icons/sprite.svg#cardCalendar"></use>
+							</svg>
+						</div>
+						<h3 class="step-card__title">Pick-up date</h3>
+						<p class="step-card__text">Select your pick up date and
+							time to book your car</p>
+					</li>
+					<li class="step-card__item">
+						<div class="step-card__image">
+							<svg class="step-card__icon">
+								<use href="./icons/sprite.svg#cardCar"></use>
+							</svg>
+						</div>
+						<h3 class="step-card__title">Book your car</h3>
+						<p class="step-card__text">Book your car and we will deliver
+							it directly to you</p>
+					</li>
+				</ol>
+			</div>
+			<div class="brand">
+				<div class="brand__viewport">
+					<ul class="brand__track">
+						<li class="brand__item">
+							<img src="./icons/honda.svg" class="brand__logo" alt="Логотип Honda">
+						</li>
+						<li class="brand__item">
+							<img src="./icons/jaguar.svg" class="brand__logo" alt="Логотип Jaguar">
+						</li>
+						<li class="brand__item">
+							<img src="./icons/nissan.svg" class="brand__logo" alt="Логотип Nissan">
+						</li>
+						<li class="brand__item">
+							<img src="./icons/volvo.svg" class="brand__logo" alt="Логотип Volvo">
+						</li>
+						<li class="brand__item">
+							<img src="./icons/audi.svg" class="brand__logo" alt="Логотип Audi">
+						</li>
+						<li class="brand__item">
+							<img src="./icons/acura.svg" class="brand__logo" alt="Логотип Acura">
+						</li>
+						<li class="brand__item">
+							<img src="./icons/honda.svg" class="brand__logo" alt="Логотип Honda">
+						</li>
+						<li class="brand__item">
+							<img src="./icons/jaguar.svg" class="brand__logo" alt="Логотип Jaguar">
+						</li>
+						<li class="brand__item">
+							<img src="./icons/nissan.svg" class="brand__logo" alt="Логотип Nissan">
+						</li>
+						<li class="brand__item">
+							<img src="./icons/volvo.svg" class="brand__logo" alt="Логотип Volvo">
+						</li>
+						<li class="brand__item">
+							<img src="./icons/audi.svg" class="brand__logo" alt="Логотип Audi">
+						</li>
+						<li class="brand__item">
+							<img src="./icons/acura.svg" class="brand__logo" alt="Логотип Acura">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="features">
+			<div class="features__container container">
+				<div class="features__content">
+					<snap class="features__badge badge">Why choose us</snap>
+					<h2 class="features__title title">We offer the best experience with our rental deals</h2>
+					<ul class="features__list features-card">
+						<li class="features-card__item">
+							<div class="features-card__image">
+								<svg class="features-card__icon">
+									<use href="./icons/sprite.svg#wallet"></use>
+								</svg>
+							</div>
+							<div class="features-card__content">
+								<h3 class="features-card__title">Best price guaranteed</h3>
+								<p class="features-card__text">Find a lower price? We’ll refund you 100%
+									of the difference.</p>
+							</div>
+						</li>
+						<li class="features-card__item">
+							<div class="features-card__image">
+								<svg class="features-card__icon">
+									<use href="./icons/sprite.svg#user"></use>
+								</svg>
+							</div>
+							<div class="features-card__content">
+								<h3 class="features-card__title">Experience driver</h3>
+								<p class="features-card__text">Don’t have driver? Don’t worry, we have many
+									experienced driver for you.</p>
+							</div>
+						</li>
+						<li class="features-card__item">
+							<div class="features-card__image">
+								<svg class="features-card__icon">
+									<use href="./icons/sprite.svg#support"></use>
+								</svg>
+							</div>
+							<div class="features-card__content">
+								<h3 class="features-card__title">24 hour car delivery</h3>
+								<p class="features-card__text">Book your car anytime and we will deliver it
+									directly to you.</p>
+							</div>
+						</li>
+						<li class="features-card__item">
+							<div class="features-card__image">
+								<svg class="features-card__icon">
+									<use href="./icons/sprite.svg#massages"></use>
+								</svg>
+							</div>
+							<div class="features-card__content">
+								<h3 class="features-card__title">24/7 technical support</h3>
+								<p class="features-card__text">Have a question? Contact Rentcars support
+									any time when you have problem.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="feateres__images">
+					<svg class="feateres__icon">
+						<use href="./icons/sprite.svg#arrowTop"></use>
+					</svg>
+					<img src="./img/features-car.png" alt="Автомобиль" class="feateres__img">
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="./script.js"></script>
+</body>
+
+</html>
