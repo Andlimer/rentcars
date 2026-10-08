@@ -6,3 +6,6 @@ burgerBtn.addEventListener('click', () => {
 	navMenu.classList.toggle('active');
 });
 
+// Слайдер
+
+
