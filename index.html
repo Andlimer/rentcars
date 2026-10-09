@@ -146,47 +146,27 @@
 					</li>
 				</ol>
 			</div>
-			<div class="steps__brand brand">
-				<div class="brand__viewport">
-					<ul class="brand__track">
-						<li class="brand__item">
-							<img src="./icons/honda.svg" class="brand__logo" alt="Логотип Honda">
-						</li>
-						<li class="brand__item">
-							<img src="./icons/jaguar.svg" class="brand__logo" alt="Логотип Jaguar">
-						</li>
-						<li class="brand__item">
-							<img src="./icons/nissan.svg" class="brand__logo" alt="Логотип Nissan">
-						</li>
-						<li class="brand__item">
-							<img src="./icons/volvo.svg" class="brand__logo" alt="Логотип Volvo">
-						</li>
-						<li class="brand__item">
-							<img src="./icons/audi.svg" class="brand__logo" alt="Логотип Audi">
-						</li>
-						<li class="brand__item">
-							<img src="./icons/acura.svg" class="brand__logo" alt="Логотип Acura">
-						</li>
-						<li class="brand__item">
-							<img src="./icons/honda.svg" class="brand__logo" alt="Логотип Honda">
-						</li>
-						<li class="brand__item">
-							<img src="./icons/jaguar.svg" class="brand__logo" alt="Логотип Jaguar">
-						</li>
-						<li class="brand__item">
-							<img src="./icons/nissan.svg" class="brand__logo" alt="Логотип Nissan">
-						</li>
-						<li class="brand__item">
-							<img src="./icons/volvo.svg" class="brand__logo" alt="Логотип Volvo">
-						</li>
-						<li class="brand__item">
-							<img src="./icons/audi.svg" class="brand__logo" alt="Логотип Audi">
-						</li>
-						<li class="brand__item">
-							<img src="./icons/acura.svg" class="brand__logo" alt="Логотип Acura">
-						</li>
-					</ul>
-				</div>
+			<div class="steps__brands brands">
+				<ul class="brands__list">
+					<li class="brands__item">
+						<img src="./icons/honda.svg" class="brands__logo" alt="Логотип Honda">
+					</li>
+					<li class="brands__item">
+						<img src="./icons/jaguar.svg" class="brands__logo" alt="Логотип Jaguar">
+					</li>
+					<li class="brands__item">
+						<img src="./icons/nissan.svg" class="brands__logo" alt="Логотип Nissan">
+					</li>
+					<li class="brands__item">
+						<img src="./icons/volvo.svg" class="brands__logo" alt="Логотип Volvo">
+					</li>
+					<li class="brands__item">
+						<img src="./icons/audi.svg" class="brands__logo" alt="Логотип Audi">
+					</li>
+					<li class="brands__item">
+						<img src="./icons/acura.svg" class="brands__logo" alt="Логотип Acura">
+					</li>
+				</ul>
 			</div>
 		</section>
 
@@ -507,14 +487,12 @@
 			<span class="reviews__badge badge">Testimonials</span>
 			<h2 class="reviews__title title">What people say about us?</h2>
 
-			<div class="reviews__slider slider">
+			<div class="slider">
 
 				<ul class="slider__list">
 					<li class="slider__item">
 						<article class="review">
-							<div class="review__image-wrapper">
-								<img src="./img/review-1.jpg" alt="photo" class="review__image">
-							</div>
+							<img src="./img/review-1.jpg" alt="photo" class="review__image">
 
 							<div class="review__content">
 								<div class="review__rating">
@@ -554,9 +532,7 @@
 
 					<li class="slider__item">
 						<article class="review">
-							<div class="review__image-wrapper">
-								<img src="./img/review-1.jpg" alt="photo" class="review__image">
-							</div>
+							<img src="./img/review-1.jpg" alt="photo" class="review__image">
 
 							<div class="review__content">
 								<div class="review__rating">
@@ -582,12 +558,13 @@
 								</div>
 
 								<blockquote class="review__text">
-									<p>“I have been using your services for 3 years. Your service is great, I will continue to use your
-										service.”</p>
+									<p>“I feel very secure when using caretall's services. Your customer care team is very enthusiastic
+										and the driver is
+										always on time.”</p>
 								</blockquote>
 
 								<footer class="review__footer">
-									<cite class="review__name">Jenny Wilson</cite>
+									<cite class="review__name">Charlie Johnson</cite>
 									<span class="review__location">From New York, US</span>
 								</footer>
 							</div>
@@ -596,9 +573,7 @@
 
 					<li class="slider__item">
 						<article class="review">
-							<div class="review__image-wrapper">
-								<img src="./img/review-1.jpg" alt="photo" class="review__image">
-							</div>
+							<img src="./img/review-2.jpg" alt="photo" class="review__image">
 
 							<div class="review__content">
 								<div class="review__rating">
@@ -636,7 +611,136 @@
 						</article>
 					</li>
 				</ul>
+				<div class="slider-pagination"></div>
 			</div>
+			<!-- <ul class="slider__list">
+					<li class="slider__item">
+						<article class="review">
+							<div class="review__image-wrapper">
+								<img src="./img/review-1.jpg" alt="photo" class="review__image">
+							</div>
+
+							<div class="review__content">
+								<div class="review__rating">
+									<span class="review__value">5.0</span>
+									<span class="review__label">stars</span>
+									<div class="review__stars rating-stars">
+										<svg class="rating-stars__icon">
+											<use href="./icons/sprite.svg#star"></use>
+										</svg>
+										<svg class="rating-stars__icon">
+											<use href="./icons/sprite.svg#star"></use>
+										</svg>
+										<svg class="rating-stars__icon">
+											<use href="./icons/sprite.svg#star"></use>
+										</svg>
+										<svg class="rating-stars__icon">
+											<use href="./icons/sprite.svg#star"></use>
+										</svg>
+										<svg class="rating-stars__icon">
+											<use href="./icons/sprite.svg#star"></use>
+										</svg>
+									</div>
+								</div>
+
+								<blockquote class="review__text">
+									<p>“I have been using your services for 3 years. Your service is great, I will continue to use your
+										service.”</p>
+								</blockquote>
+
+								<footer class="review__footer">
+									<cite class="review__name">Jenny Wilson</cite>
+									<span class="review__location">From New York, US</span>
+								</footer>
+							</div>
+						</article>
+					</li>
+
+					<li class="slider__item">
+						<article class="review">
+							<div class="review__image-wrapper">
+								<img src="./img/review-1.jpg" alt="photo" class="review__image">
+							</div>
+
+							<div class="review__content">
+								<div class="review__rating">
+									<span class="review__value">5.0</span>
+									<span class="review__label">stars</span>
+									<div class="review__stars rating-stars">
+										<svg class="rating-stars__icon">
+											<use href="./icons/sprite.svg#star"></use>
+										</svg>
+										<svg class="rating-stars__icon">
+											<use href="./icons/sprite.svg#star"></use>
+										</svg>
+										<svg class="rating-stars__icon">
+											<use href="./icons/sprite.svg#star"></use>
+										</svg>
+										<svg class="rating-stars__icon">
+											<use href="./icons/sprite.svg#star"></use>
+										</svg>
+										<svg class="rating-stars__icon">
+											<use href="./icons/sprite.svg#star"></use>
+										</svg>
+									</div>
+								</div>
+
+								<blockquote class="review__text">
+									<p>“I have been using your services for 3 years. Your service is great, I will continue to use your
+										service.”</p>
+								</blockquote>
+
+								<footer class="review__footer">
+									<cite class="review__name">Jenny Wilson</cite>
+									<span class="review__location">From New York, US</span>
+								</footer>
+							</div>
+						</article>
+					</li>
+
+					<li class="slider__item">
+						<article class="review">
+							<div class="review__image-wrapper">
+								<img src="./img/review-1.jpg" alt="photo" class="review__image">
+							</div>
+
+							<div class="review__content">
+								<div class="review__rating">
+									<span class="review__value">5.0</span>
+									<span class="review__label">stars</span>
+									<div class="review__stars rating-stars">
+										<svg class="rating-stars__icon">
+											<use href="./icons/sprite.svg#star"></use>
+										</svg>
+										<svg class="rating-stars__icon">
+											<use href="./icons/sprite.svg#star"></use>
+										</svg>
+										<svg class="rating-stars__icon">
+											<use href="./icons/sprite.svg#star"></use>
+										</svg>
+										<svg class="rating-stars__icon">
+											<use href="./icons/sprite.svg#star"></use>
+										</svg>
+										<svg class="rating-stars__icon">
+											<use href="./icons/sprite.svg#star"></use>
+										</svg>
+									</div>
+								</div>
+
+								<blockquote class="review__text">
+									<p>“I have been using your services for 3 years. Your service is great, I will continue to use your
+										service.”</p>
+								</blockquote>
+
+								<footer class="review__footer">
+									<cite class="review__name">Jenny Wilson</cite>
+									<span class="review__location">From New York, US</span>
+								</footer>
+							</div>
+						</article>
+					</li>
+				</ul> -->
+
 
 		</section>
 
